@@ -1,7 +1,11 @@
 [package]
 name = "rust-api-test"
+description = "CLI for testing REST APIs"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+authors = ["Prasad Jivane <prasadjivane@gmail.com>"]
+repository = "https://github.com/prasadjivane/rust-api-test"
 
 [dependencies]
 reqwest = "0.11"
