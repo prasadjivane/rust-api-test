@@ -36,17 +36,18 @@ Follow the on-screen instructions to select the HTTP method, enter the URL, and 
 2. POST
 3. PUT
 4. DELETE
-5. Exit` 
+5. Exit
 ```
 ## Dependencies
 
 -   reqwest - HTTP client for Rust.
 -   serde_json - JSON serialization and deserialization library for Rust.
 
+
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on GitHub.
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an [issue](https://github.com/prasadjivane/rust-api-test/issues) or submit a [pull](https://github.com/prasadjivane/rust-api-test/pulls) request on [GitHub](https://github.com/prasadjivane).
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/prasadjivane/rust-api-test?tab=MIT-1-ov-file) - see the LICENSE file for details.
