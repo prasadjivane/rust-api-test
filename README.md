@@ -1,10 +1,11 @@
-
-<img width="714" alt="rust-api-test" src="https://github.com/prasadjivane/rust-api-test/assets/26869583/10445b8d-7bbb-46a9-bfef-e49662a9176b">
+<img  width="714"  alt="rust-api-test"  src="https://github.com/prasadjivane/rust-api-test/assets/26869583/10445b8d-7bbb-46a9-bfef-e49662a9176b">
 
 [<img alt="github" src="https://img.shields.io/badge/Github-rust%20api%20test-blue" height="30">](https://github.com/prasadjivane/rust-api-test)
 [<img alt="crates.io" src="https://img.shields.io/badge/crates.io-V0.1.0-green" height="30">](https://crates.io/crates/rust-api-test)
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-rust%20api%20test-orange" height="30">](https://docs.rs/crate/rust-api-test)
 [<img alt="releases" src="https://img.shields.io/badge/Releases%20V0.1.0-8A2BE2" height="30">](https://github.com/prasadjivane/rust-api-test/releases)
+
+  
 
 # rust-api-test
 
@@ -12,11 +13,20 @@
 
 ## Features
 
-- Supports GET, POST, PUT, and DELETE HTTP methods.
-- Allows sending JSON data in the request body.
-- Provides real-time feedback on the response including status code and response body.
+- Simple and easy-to-use CLI interface
+- Supports GET, POST, PUT, and DELETE HTTP methods
+- Real-time testing of REST APIs
+- JSON request and response handling
 
 ## Installation
+
+To use rust-api-test, you need to have Rust and Cargo installed on your system. You can install them from [rustup.rs](https://rustup.rs/).
+
+Once you have Rust and Cargo installed, you can install rust-api-test using Cargo:
+
+```bash
+cargo install rust-api-test
+```
 
 To use `rust-api-test` in your Rust project, simply add it as a dependency in your `Cargo.toml` file:
 
@@ -27,31 +37,31 @@ rust-api-test = "0.1.0"
 
 ## Usage
 
-Once installed, you can use `rust-api-test` from the command line:
+`rust-api-test <method> <url> [body]`
 
-```
-rust-api-test
-```
-Follow the on-screen instructions to select the HTTP method, enter the URL, and provide optional JSON data for POST and PUT requests.
+## Examples
 
-## Example
-
-```Enter your choice:
-1. GET
-2. POST
-3. PUT
-4. DELETE
-5. Exit
+Get data from an API endpoint
+```bash
+rust-api-test GET https://jsonplaceholder.typicode.com/posts/1
 ```
+
+Post data to an API endpoint
+```bash
+rust-api-test POST https://jsonplaceholder.typicode.com/posts userId=1 title="Test Title" body="Test Body"
+```
+
 ## Dependencies
 
--   reqwest - HTTP client for Rust.
--   serde_json - JSON serialization and deserialization library for Rust.
+- reqwest - HTTP client for Rust.
+
+- serde_json - JSON serialization and deserialization library for Rust.
 
 
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an [issue](https://github.com/prasadjivane/rust-api-test/issues) or submit a [pull](https://github.com/prasadjivane/rust-api-test/pulls) request on [GitHub](https://github.com/prasadjivane).
+
 
 ## License
 
