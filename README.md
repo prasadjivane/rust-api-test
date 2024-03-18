@@ -1,9 +1,9 @@
 <img  width="714"  alt="rust-api-test"  src="https://github.com/prasadjivane/rust-api-test/assets/26869583/10445b8d-7bbb-46a9-bfef-e49662a9176b">
 
 [<img alt="github" src="https://img.shields.io/badge/Github-rust%20api%20test-blue" height="30">](https://github.com/prasadjivane/rust-api-test)
-[<img alt="crates.io" src="https://img.shields.io/badge/crates.io-V0.1.0-green" height="30">](https://crates.io/crates/rust-api-test)
+[<img alt="crates.io" src="https://img.shields.io/badge/crates.io-V1.1.1-green" height="30">](https://crates.io/crates/rust-api-test)
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-rust%20api%20test-orange" height="30">](https://docs.rs/crate/rust-api-test)
-[<img alt="releases" src="https://img.shields.io/badge/Releases%20V0.1.0-8A2BE2" height="30">](https://github.com/prasadjivane/rust-api-test/releases)
+[<img alt="releases" src="https://img.shields.io/badge/Releases%20V1.1.1-8A2BE2" height="30">](https://github.com/prasadjivane/rust-api-test/releases)
 
   
 
