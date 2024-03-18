@@ -32,7 +32,7 @@ To use `rust-api-test` in your Rust project, simply add it as a dependency in yo
 
 ```ssh
 [dependencies]
-rust-api-test = "1.1.0"
+rust-api-test = "1.1.1"
 ```
 
 ## Usage
